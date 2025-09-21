@@ -20,7 +20,7 @@ class Memory:
                 dimension=1536,
                 spec=ServerlessSpec(
                     cloud='aws',
-                    region='us-east-1'
+                    region='us-east-1' # maybe put in .env later
                 )
             )
         self.index = self.pinecone.Index(INDEX_NAME)
